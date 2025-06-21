@@ -1,0 +1,121 @@
+﻿@page "/"
+
+<div class="fixed-header">
+    <h1>Hello, world!</h1>
+    <p>Welcome to your new app.</p>
+</div>
+
+<div class="scrollable-content">
+  <div>
+    <label for="firstName">First Name:</label>
+    <input id="firstName" name="firstName" type="text" />
+  </div>
+  <div>
+    <label for="lastName">Last Name:</label>
+    <input id="lastName" name="lastName" type="text" />
+  </div>
+  <div>
+    <label for="email">Email Address:</label>
+    <input id="email" name="email" type="email" />
+  </div>
+  <div>
+    <label for="phone">Phone Number:</label>
+    <input id="phone" name="phone" type="tel" />
+  </div>
+  <div>
+    <label for="dob">Date of Birth:</label>
+    <input id="dob" name="dob" type="date" />
+  </div>
+  <div>
+    <label for="address">Address:</label>
+    <input id="address" name="address" type="text" />
+  </div>
+  <div>
+    <label for="city">City:</label>
+    <input id="city" name="city" type="text" />
+  </div>
+  <div>
+    <label for="state">State/Province:</label>
+    <input id="state" name="state" type="text" />
+  </div>
+  <div>
+    <label for="zip">ZIP/Postal Code:</label>
+    <input id="zip" name="zip" type="text" />
+  </div>
+  <div>
+    <label for="country">Country:</label>
+    <input id="country" name="country" type="text" />
+  </div>
+  <div>
+    <label for="username">Username:</label>
+    <input id="username" name="username" type="text" />
+  </div>
+  <div>
+    <label for="password">Password:</label>
+    <input id="password" name="password" type="password" />
+  </div>
+  <div>
+    <label for="confirmPassword">Confirm Password:</label>
+    <input id="confirmPassword" name="confirmPassword" type="password" />
+  </div>
+  <div>
+    <label for="website">Website:</label>
+    <input id="website" name="website" type="url" />
+  </div>
+  <div>
+    <label for="company">Company:</label>
+    <input id="company" name="company" type="text" />
+  </div>
+  <div>
+    <label for="jobTitle">Job Title:</label>
+    <input id="jobTitle" name="jobTitle" type="text" />
+  </div>
+  <div>
+    <label for="bio">Short Bio:</label>
+    <input id="bio" name="bio" type="text" />
+  </div>
+  <div>
+    <label for="newsletter">Subscribe to Newsletter:</label>
+    <input id="newsletter" name="newsletter" type="checkbox" />
+  </div>
+</div>
+
+<style>
+    .fixed-header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        background-color: white;
+        padding: 1rem;
+        box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        z-index: 100;
+    }
+
+    .fixed-header h1 {
+        margin-top: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    .fixed-header p {
+        margin-bottom: 0;
+    }
+
+    .scrollable-content {
+        padding-top: 7rem; /* Adjust based on your header height */
+        padding-bottom: 1rem;
+    }
+
+    .scrollable-content > div {
+        margin-bottom: 1rem;
+    }
+
+    /* Make inputs full width and add some styling */
+    input {
+        width: 100%;
+        padding: 0.5rem;
+        margin-top: 0.25rem;
+        border: 1px solid #ced4da;
+        border-radius: 0.25rem;
+    }
+</style>
